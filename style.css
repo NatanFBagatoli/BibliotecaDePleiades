@@ -1,0 +1,209 @@
+body {
+    background-image: url("./backgroundimg.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    font-family: "Space Grotesk", sans-serif;
+
+}
+
+/* =========================================
+   NAVBAR
+   ========================================= */
+
+#main-navbar {
+    background-color: rgba(26, 52, 115, 0.90);
+    border-right: 2px solid rgba(255, 255, 255, 0.12);
+    position: fixed;
+    top: 0;
+    width: 5.3rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    transition: width 0.3s ease;
+    flex-shrink: 0;
+}
+
+#main-navbar:hover {
+    width: 15rem;
+    box-shadow: 12px 0 35px rgba(0, 0, 0, 0.35);
+}
+
+.nav-menu {
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 2rem 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+.nav-menu a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 0.5rem;
+    padding: 0.65rem 0.7rem;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    white-space: nowrap;
+    transition:
+        background-color 0.2s ease,
+        border-color 0.2s ease,
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.label {
+    opacity: 0;
+    transform: translateX(-10px);
+    transition:
+        opacity 0.2s ease,
+        transform 0.2s ease;
+}
+
+#main-navbar:hover .label {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.icons {
+    width: 2rem;
+    height: 2rem;
+    flex-shrink: 0;
+    object-fit: contain;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 6px;
+    box-shadow: 3px 3px 0 black;
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.nav-menu a:hover .icons {
+    transform: scale(1.08);
+    box-shadow:
+        4px 4px 0 black;
+}
+
+.nav-menu a:hover {
+    transform: translateX(3px);
+    background-color: rgba(255, 255, 255, 0.12);
+
+}
+
+/* =========================================
+    HOME SECTION
+   ========================================= */
+
+.principal-container {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70rem;
+    height: 45rem;
+    position: fixed;
+    left: 45%;
+    transform: translateX(-50%);
+    top: 15%;
+    background-color: brown;
+    opacity: 80%;
+
+}
+
+.updatelog-container {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25rem;
+    height: 45rem;
+    position: fixed;
+    left: 75%;
+    top: 15%;
+    background-color: blueviolet;
+    opacity: 80%;
+}
+.grid-updatelog{
+
+}
+.card-updatelog{
+    
+}
+.page {
+    display: none;
+}
+
+.page.active {
+    display: block;
+}
+
+.card-descricao-home {
+    min-width: 0;
+    min-height: 0;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.12);
+    overflow: hidden;
+}
+
+.card-descricao-home p {
+    margin: 0 0 0.7rem;
+    line-height: 1.35;
+}
+
+.card-imagem-home {
+    width: 100%;
+    height: 100%;
+    padding-right: 0.5rem;
+    box-sizing: border-box;
+}
+
+.imagem-home {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+.grid-home {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    padding-top: 4rem;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.pleiades {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 3rem;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 0.8rem;
+}
