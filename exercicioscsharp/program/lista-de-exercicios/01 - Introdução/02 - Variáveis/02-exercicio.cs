@@ -18,7 +18,7 @@ public class ExercicioVariaveis2
         ushort maxalunos;           // inteiro sem sinal, 0 a 65.535
 
         //VariavelX = Console.ReadLine(); => O valor pode ser armazenado em uma variável para ser utilizado posteriormente.
-        //Parse serve para converter um texto (string) em outro tipo de dado.
+        //Parse serve para converter um texto(string) em outro tipo de dado.
 
         Console.WriteLine("===== CADASTRO DO ESTUDANTE =====");
         Console.WriteLine();
