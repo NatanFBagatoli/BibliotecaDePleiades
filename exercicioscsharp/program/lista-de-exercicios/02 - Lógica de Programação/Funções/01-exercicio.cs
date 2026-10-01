@@ -24,3 +24,90 @@
 //    return a + b;      
 //}
 //
+using System.Net.NetworkInformation;
+
+public class ExercicioFuncoes
+{
+    public static void ExecutarFuncoes()
+    {
+
+        static void dizeroi()
+        {
+            Console.WriteLine("Oie");
+        }
+        static int somar()
+        {
+            return 2 + 2;
+        }
+        static void nome(string nome)
+        {
+            Console.Write($"Olá, {nome}");
+        }
+        nome("Edward");
+        nome("Natan");
+        somar();
+        dizeroi();
+
+        static int returnint()
+        {
+            return 2;
+        }
+        static double returndouble()
+        {
+            return 2.5;
+        }
+        static char returnchar()
+        {
+            return 'E';
+        }
+        static bool returnbool()
+        {
+            return true;
+        }
+
+        returnint();
+        returndouble();
+        returnchar();
+        returnbool();
+
+
+        static int dobrar(int numero)
+        {
+            return numero * 2;
+        }
+
+        static bool maiordeidade(int idade)
+        {
+            if (idade >= 18)
+            {
+                return true;
+            }//else
+            return false;
+        }
+
+        static void contar(int limite)
+        {
+            for (int i = 1; i <= limite; i++)
+            {
+                Console.WriteLine(i);
+            }
+        }
+        contar(10);
+        maiordeidade(20);
+        dobrar(4);
+
+        static void mostrarnumeros(int[] numeros)
+        {
+            foreach (int numero in numeros)
+            {
+                Console.WriteLine(numero);
+            }
+    }
+int[] valores = {1,2,3,4,5,6,7,8,9,10};
+mostrarnumeros(valores);
+
+
+
+    }
+
+}

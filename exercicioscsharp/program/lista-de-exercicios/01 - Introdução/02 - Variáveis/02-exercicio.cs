@@ -1,6 +1,6 @@
 public class ExercicioVariaveis2
 {
-    public static void Executar4()
+    public static void ExecutarVariaveis2()
     {
         string nome;                // string = texto
         char inicial;               // char = caractere único

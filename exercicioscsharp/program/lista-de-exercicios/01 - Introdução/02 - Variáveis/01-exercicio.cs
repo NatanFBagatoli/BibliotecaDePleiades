@@ -1,8 +1,8 @@
 public class ExercicioVariaveis
 {
-    public static void Executar2()
+    public static void ExecutarVariaveis1()
     {
-
+                                        //type variableName = value;
         string nome = "Natan";          //string = texto
         char inicial = 'N';             //char = caractere unico
         int idade = 22;                 //int = inteiro de 32 bits

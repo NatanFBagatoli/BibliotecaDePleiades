@@ -23,30 +23,38 @@
                 Console.WriteLine();
                 Console.WriteLine("01 - Exercicios sobre Console");
                 Console.WriteLine();
-                Console.WriteLine("02 - Exercicios sobre Variáveis");
+                Console.WriteLine("02 - Exercicios sobre Variáveis 1");
                 Console.WriteLine();
-                Console.WriteLine("03 - Exercicios sobre Math.");
+                Console.WriteLine("03 - Exercicios sobre Variáveis 2.");
                 Console.WriteLine();
+                Console.WriteLine("04 - Exercicios sobre Math.");
+                Console.WriteLine();
+
                     int exercicio = int.Parse(Console.ReadLine());
                     Console.WriteLine();
                         switch(exercicio)
                         {
                         case 1:
-                        ExercicioWriteLine.Executar();
+                        ExercicioWriteLine.ExecutarWriteLine();
                         break;
                         case 2:
-                        ExercicioVariaveis.Executar2();
+                        ExercicioVariaveis.ExecutarVariaveis1();
                         break;
                         case 3:
-                        ExercicioMath.Executar3();
+                        ExercicioVariaveis2.ExecutarVariaveis2();
+                        break;
+                        case 4:
+                        ExercicioMath.ExecutarMath();
                         break;
                         }    
             break;
 
             case 2:
-                ExercicioVariaveis.Executar2();
+                ExercicioFuncoes.ExecutarFuncoes();
                 break;
-
+            case 3:
+                ExercicioPoo.ExecutarPoo();
+            break;
             default:
             Console.WriteLine("Opção inválida");
             break;

@@ -1,6 +1,6 @@
 public class ExercicioWriteLine
 {
-    public static void Executar()
+    public static void ExecutarWriteLine()
     {
 
         // ============================================

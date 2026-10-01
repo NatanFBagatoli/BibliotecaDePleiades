@@ -1,7 +1,7 @@
 
 public class ExercicioMath
 {
-    public static void Executar3()
+    public static void ExecutarMath()
     {
         
         int a = 10;
