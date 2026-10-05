@@ -13,3 +13,18 @@ C:\Users\Pichau\Desktop\tranqueiras\Biblioteca\exercicioscsharp\program\obj\Debu
 C:\Users\Pichau\Desktop\tranqueiras\Biblioteca\exercicioscsharp\program\obj\Debug\net10.0\program.genruntimeconfig.cache
 C:\Users\Pichau\Desktop\tranqueiras\Biblioteca\exercicioscsharp\program\obj\Debug\net10.0\ref\program.dll
 C:\Users\Pichau\Desktop\tranqueiras\Biblioteca\exercicioscsharp\program\obj\Debug\net10.0\program.sourcelink.json
+F:\Users\Natan\OneDrive\Desktop\tralhas deNOVO\BibliotecaDePleiades\exercicioscsharp\program\bin\Debug\net10.0\program.exe
+F:\Users\Natan\OneDrive\Desktop\tralhas deNOVO\BibliotecaDePleiades\exercicioscsharp\program\bin\Debug\net10.0\program.deps.json
+F:\Users\Natan\OneDrive\Desktop\tralhas deNOVO\BibliotecaDePleiades\exercicioscsharp\program\bin\Debug\net10.0\program.runtimeconfig.json
+F:\Users\Natan\OneDrive\Desktop\tralhas deNOVO\BibliotecaDePleiades\exercicioscsharp\program\bin\Debug\net10.0\program.dll
+F:\Users\Natan\OneDrive\Desktop\tralhas deNOVO\BibliotecaDePleiades\exercicioscsharp\program\bin\Debug\net10.0\program.pdb
+F:\Users\Natan\OneDrive\Desktop\tralhas deNOVO\BibliotecaDePleiades\exercicioscsharp\program\obj\Debug\net10.0\program.GeneratedMSBuildEditorConfig.editorconfig
+F:\Users\Natan\OneDrive\Desktop\tralhas deNOVO\BibliotecaDePleiades\exercicioscsharp\program\obj\Debug\net10.0\program.AssemblyInfoInputs.cache
+F:\Users\Natan\OneDrive\Desktop\tralhas deNOVO\BibliotecaDePleiades\exercicioscsharp\program\obj\Debug\net10.0\program.AssemblyInfo.cs
+F:\Users\Natan\OneDrive\Desktop\tralhas deNOVO\BibliotecaDePleiades\exercicioscsharp\program\obj\Debug\net10.0\program.csproj.CoreCompileInputs.cache
+F:\Users\Natan\OneDrive\Desktop\tralhas deNOVO\BibliotecaDePleiades\exercicioscsharp\program\obj\Debug\net10.0\program.sourcelink.json
+F:\Users\Natan\OneDrive\Desktop\tralhas deNOVO\BibliotecaDePleiades\exercicioscsharp\program\obj\Debug\net10.0\program.dll
+F:\Users\Natan\OneDrive\Desktop\tralhas deNOVO\BibliotecaDePleiades\exercicioscsharp\program\obj\Debug\net10.0\refint\program.dll
+F:\Users\Natan\OneDrive\Desktop\tralhas deNOVO\BibliotecaDePleiades\exercicioscsharp\program\obj\Debug\net10.0\program.pdb
+F:\Users\Natan\OneDrive\Desktop\tralhas deNOVO\BibliotecaDePleiades\exercicioscsharp\program\obj\Debug\net10.0\program.genruntimeconfig.cache
+F:\Users\Natan\OneDrive\Desktop\tralhas deNOVO\BibliotecaDePleiades\exercicioscsharp\program\obj\Debug\net10.0\ref\program.dll

@@ -1,24 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Pichau\\Desktop\\tranqueiras\\Biblioteca\\exercicioscsharp\\program\\program.csproj": {}
+    "F:\\Users\\Natan\\OneDrive\\Desktop\\tralhas deNOVO\\BibliotecaDePleiades\\exercicioscsharp\\program\\program.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Pichau\\Desktop\\tranqueiras\\Biblioteca\\exercicioscsharp\\program\\program.csproj": {
+    "F:\\Users\\Natan\\OneDrive\\Desktop\\tralhas deNOVO\\BibliotecaDePleiades\\exercicioscsharp\\program\\program.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Pichau\\Desktop\\tranqueiras\\Biblioteca\\exercicioscsharp\\program\\program.csproj",
+        "projectUniqueName": "F:\\Users\\Natan\\OneDrive\\Desktop\\tralhas deNOVO\\BibliotecaDePleiades\\exercicioscsharp\\program\\program.csproj",
         "projectName": "program",
-        "projectPath": "C:\\Users\\Pichau\\Desktop\\tranqueiras\\Biblioteca\\exercicioscsharp\\program\\program.csproj",
-        "packagesPath": "C:\\Users\\Pichau\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Pichau\\Desktop\\tranqueiras\\Biblioteca\\exercicioscsharp\\program\\obj\\",
+        "projectPath": "F:\\Users\\Natan\\OneDrive\\Desktop\\tralhas deNOVO\\BibliotecaDePleiades\\exercicioscsharp\\program\\program.csproj",
+        "packagesPath": "F:\\Users\\Natan\\.nuget\\packages\\",
+        "outputPath": "F:\\Users\\Natan\\OneDrive\\Desktop\\tralhas deNOVO\\BibliotecaDePleiades\\exercicioscsharp\\program\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Pichau\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "F:\\Users\\Natan\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
         "frameworks": {
           "net10.0": {
             "framework": "net10.0",
@@ -58,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "F:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
