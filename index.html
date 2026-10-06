@@ -67,27 +67,499 @@
             </div>
             <div class="updatelog-container">
                 <h3>WOW UPDATE LOG CONTAINER</h3>
-                <div class="grid-updatelog">
-                    <div class="card-updatelog">
-                        <p>Update 1 - CSharp</p>
-                    </div>
+                <div class="card-updatelog">
+                    <p>Update 1 - CSharp</p>
+                    <p>Update 2 - JavaScript</p>
+                    <p>Update 3 - Python</p>
+                    <p>Update 4 - Matemática</p>
+                    <p>Update 5 - Física</p>
+                    <p>Update 6 - Química</p>
                 </div>
             </div>
         </section>
         <section id="CSharp" class="page">
+            <div class="page-title">
+                <h2>CSharp</h2>
+            </div>
+            <div class="page-description">C# é uma linguagem de programação versátil usada para desenvolvimento web,
+                desktop, mobile, jogos, inteligência artificial e serviços em nuvem.</div>
+            <div class="page-topics">
+                <h2>Assuntos Aprendidos</h2>
+                <p>• Console, Variáveis e Math.</p>
+                <p>• Funções, If Else, Switch Case e While Do While.</p>
+                <p>• Classes, Objetos, Construtores e Métodos.</p>
+                <p>• Encapsulamento, Herança, Polimorfismo e Abstração.</p>
+            </div>
+            <div class="page-summary">
+                <h2>Súmario das atividades</h2>
+                <p>• Exercicio 1</p>
+                <p>• Exercicio 2</p>
+                <p>• Exercicio 3</p>
+                <p>• Exercicio 4</p>
+            </div>
+            <div class="page-conteudos">
+                <h2>Conteúdos</h2>
+            </div>
 
+            <!-- ===== INTRODUÇÃO ===== -->
+            <div class="page-introducao">
+                <h3>Introdução</h3>
+                <p>Descrição sobre a introdução ao conteúdo de C#.</p>
+            </div>
+            <div class="grid-introducao">
+                <div class="codeinput">
+                    <pre><code><span class="kw">public class</span> <span class="type">ExercicioWriteLine</span>
+{
+    <span class="kw">public static void</span> <span class="fn">ExecutarWriteLine</span>()
+    {
+        <span class="cmt">//1. WriteLine x Write</span>
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(<span class="str">"Hello World1"</span>);
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>();
+        <span class="cls">Console</span>.<span class="fn">Write</span>(<span class="str">"Hello World2"</span>);
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>();
+
+        <span class="cmt">//2. Concatenação com +</span>
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(<span class="str">"Hello"</span> + <span class="str">" "</span> + <span class="str">"World"</span>);
+
+        <span class="cmt">//3. Caracteres de escape</span>
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(<span class="str">"Linha 1\nLinha 2"</span>);
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(<span class="str">"Nome:\tJoão"</span>);
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(<span class="str">"Ele disse: \"Olá!\""</span>);
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(<span class="str">"C:\\pasta\\arquivo.txt"</span>);
+
+        <span class="cmt">//4. Expressoes aritméticas direto no WriteLine</span>
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(<span class="str">$"2 + 2 = {2 + 2}"</span>);
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(4 + 4);
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(<span class="str">$"5 - 4 = {5 - 4}"</span>);
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(10 - 5);
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(<span class="str">$"5 * 5 = {5 * 5}"</span>);
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(3 * 3);
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(<span class="str">$"12 / 4 = {12 / 4}"</span>);
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(12 / 3);
+
+        <span class="cmt">//5. Formatação composta</span>
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(<span class="str">"Nome: {0}, Idade: {1}, altura: {2}"</span>, <span class="str">"João"</span>, <span class="num">19</span>, <span class="num">1.80</span>);
+
+        <span class="cmt">//6. ReadLine</span>
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(<span class="str">"===== FIM DO PROGRAMA ====="</span>);
+        <span class="cls">Console</span>.<span class="fn">Write</span>(<span class="str">"Pressione Enter para sair..."</span>);
+        <span class="cls">Console</span>.<span class="fn">ReadLine</span>();
+    }
+}</code></pre>
+                </div>
+                <div class="codeoutput">
+                    <div class="cmd-window">
+                        <div class="cmd-titlebar">
+                            <span class="cmd-title">C:\Users\Pleiades\projetos\ExercicioWriteLine.exe</span>
+                        </div>
+                        <div class="cmd-body">
+                            <p>Hello World1</p>
+                            <p>&nbsp;</p>
+                            <p>Hello World2</p>
+                            <p>&nbsp;</p>
+                            <p>Hello World</p>
+                            <p>Linha 1</p>
+                            <p>Linha 2</p>
+                            <p>Nome:&nbsp;&nbsp;&nbsp;João</p>
+                            <p>Ele disse: "Olá!"</p>
+                            <p>C:\pasta\arquivo.txt</p>
+                            <p>2 + 2 = 4</p>
+                            <p>8</p>
+                            <p>5 - 4 = 1</p>
+                            <p>5</p>
+                            <p>5 * 5 = 25</p>
+                            <p>9</p>
+                            <p>12 / 4 = 3</p>
+                            <p>4</p>
+                            <p>Nome: João, Idade: 19, altura: 1,8</p>
+                            <p>===== FIM DO PROGRAMA =====</p>
+                            <p>Pressione Enter para sair...<span class="cmd-cursor">_</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ===== LÓGICA DE PROGRAMAÇÃO ===== -->
+            <div class="page-logica">
+                <h3>Lógica de programação</h3>
+                <p>Descrição sobre a lógica de programação no conteúdo de C#.</p>
+                <p>Exercício de declaração de variáveis com diferentes tipos primitivos: <code>string</code>,
+                    <code>char</code>, <code>int</code>, <code>long</code>, <code>float</code>, <code>double</code>,
+                    <code>decimal</code>, <code>bool</code>, <code>byte</code>, <code>short</code>, <code>uint</code>,
+                    <code>ulong</code>, <code>sbyte</code> e <code>ushort</code>.</p>
+            </div>
+            <div class="grid-introducao">
+                <div class="codeinput">
+                    <pre><code><span class="kw">public class</span> <span class="type">ExercicioVariaveis</span>
+{
+    <span class="kw">public static void</span> <span class="fn">ExecutarVariaveis1</span>()
+    {
+        <span class="type">string</span> nome = <span class="str">"Natan"</span>;
+        <span class="type">char</span> inicial = <span class="str">'N'</span>;
+        <span class="type">int</span> idade = <span class="num">22</span>;
+        <span class="type">long</span> matricula = <span class="num">123456789</span>;
+        <span class="type">float</span> altura = <span class="num">1.80f</span>;
+        <span class="type">double</span> mediafinal = <span class="num">8.5</span>;
+        <span class="type">decimal</span> mensalidade = <span class="num">476.90m</span>;
+        <span class="type">bool</span> matriculado = <span class="kw">true</span>;
+        <span class="type">byte</span> qntddisciplinas = <span class="num">6</span>;
+        <span class="type">short</span> datadenasc = <span class="num">2004</span>;
+        <span class="type">uint</span> codigoturma = <span class="num">3434</span>;
+        <span class="type">ulong</span> idsistema = <span class="num">9876543210</span>;
+        <span class="type">sbyte</span> diffidade = <span class="num">-2</span>;
+        <span class="type">ushort</span> maxalunos = <span class="num">46</span>;
+
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(<span class="str">"===== CADASTRO DO ESTUDANTE ====="</span>);
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>();
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(<span class="str">$"Nome: {nome}"</span>);
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(<span class="str">$"Inicial: {inicial}"</span>);
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(<span class="str">$"Idade: {idade}"</span>);
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(<span class="str">$"Matrícula: {matricula}"</span>);
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(<span class="str">$"Altura: {altura} m"</span>);
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(<span class="str">$"Média final: {mediafinal}"</span>);
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(<span class="str">$"Mensalidade: R$ {mensalidade}"</span>);
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(<span class="str">$"Está matriculado?: {matriculado}"</span>);
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(<span class="str">$"Quantidade de disciplinas: {qntddisciplinas}"</span>);
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(<span class="str">$"Ano de nascimento: {datadenasc}"</span>);
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(<span class="str">$"Código da turma: {codigoturma}"</span>);
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(<span class="str">$"Identificador do sistema: {idsistema}"</span>);
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(<span class="str">$"Diferença de idade: {diffidade}"</span>);
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(<span class="str">$"Máximo de alunos: {maxalunos}"</span>);
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>();
+    }
+}</code></pre>
+                </div>
+                <div class="codeoutput">
+                    <div class="cmd-window">
+                        <div class="cmd-titlebar">
+                            <span class="cmd-title">C:\Users\Pleiades\projetos\ExercicioVariaveis.exe</span>
+                        </div>
+                        <div class="cmd-body">
+                            <p>===== CADASTRO DO ESTUDANTE =====</p>
+                            <p>&nbsp;</p>
+                            <p>Nome: Natan</p>
+                            <p>Inicial: N</p>
+                            <p>Idade: 22</p>
+                            <p>Matrícula: 123456789</p>
+                            <p>Altura: 1,8 m</p>
+                            <p>Média final: 8,5</p>
+                            <p>Mensalidade: R$ 476,90</p>
+                            <p>Está matriculado?: True</p>
+                            <p>Quantidade de disciplinas: 6</p>
+                            <p>Ano de nascimento: 2004</p>
+                            <p>Código da turma: 3434</p>
+                            <p>Identificador do sistema: 9876543210</p>
+                            <p>Diferença de idade: -2</p>
+                            <p>Máximo de alunos: 46</p>
+                            <p>&nbsp;</p>
+                            <p><span class="cmd-cursor">_</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ===== ESTRUTURA DE DADOS ===== -->
+            <div class="page-estrutura">
+                <h3>Estrutura de dados</h3>
+                <p>Descrição sobre as estruturas de dados no conteúdo de C#.</p>
+            </div>
+            <div class="grid-introducao">
+                <div class="codeinput">
+                    <pre><code><span class="kw">public class</span> <span class="type">ExercicioWriteLine</span>
+{
+    <span class="kw">public static void</span> <span class="fn">ExecutarWriteLine</span>()
+    {
+        <span class="cmt">//1. WriteLine x Write</span>
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(<span class="str">"Hello World1"</span>);
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>();
+        <span class="cls">Console</span>.<span class="fn">Write</span>(<span class="str">"Hello World2"</span>);
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>();
+
+        <span class="cmt">//2. Concatenação com +</span>
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(<span class="str">"Hello"</span> + <span class="str">" "</span> + <span class="str">"World"</span>);
+
+        <span class="cmt">//3. Caracteres de escape</span>
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(<span class="str">"Linha 1\nLinha 2"</span>);
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(<span class="str">"Nome:\tJoão"</span>);
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(<span class="str">"Ele disse: \"Olá!\""</span>);
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(<span class="str">"C:\\pasta\\arquivo.txt"</span>);
+
+        <span class="cmt">//4. Expressoes aritméticas direto no WriteLine</span>
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(<span class="str">$"2 + 2 = {2 + 2}"</span>);
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(4 + 4);
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(<span class="str">$"5 - 4 = {5 - 4}"</span>);
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(10 - 5);
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(<span class="str">$"5 * 5 = {5 * 5}"</span>);
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(3 * 3);
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(<span class="str">$"12 / 4 = {12 / 4}"</span>);
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(12 / 3);
+
+        <span class="cmt">//5. Formatação composta</span>
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(<span class="str">"Nome: {0}, Idade: {1}, altura: {2}"</span>, <span class="str">"João"</span>, <span class="num">19</span>, <span class="num">1.80</span>);
+
+        <span class="cmt">//6. ReadLine</span>
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(<span class="str">"===== FIM DO PROGRAMA ====="</span>);
+        <span class="cls">Console</span>.<span class="fn">Write</span>(<span class="str">"Pressione Enter para sair..."</span>);
+        <span class="cls">Console</span>.<span class="fn">ReadLine</span>();
+    }
+}</code></pre>
+                </div>
+
+                <div class="codeoutput">
+                    <div class="cmd-window">
+                        <div class="cmd-titlebar">
+                            <span class="cmd-title">C:\Users\Pleiades\projetos\ExercicioWriteLine.exe</span>
+                        </div>
+                        <div class="cmd-body">
+                            <p>Hello World1</p>
+                            <p>&nbsp;</p>
+                            <p>Hello World2</p>
+                            <p>&nbsp;</p>
+                            <p>Hello World</p>
+                            <p>Linha 1</p>
+                            <p>Linha 2</p>
+                            <p>Nome:&nbsp;&nbsp;&nbsp;João</p>
+                            <p>Ele disse: "Olá!"</p>
+                            <p>C:\pasta\arquivo.txt</p>
+                            <p>2 + 2 = 4</p>
+                            <p>8</p>
+                            <p>5 - 4 = 1</p>
+                            <p>5</p>
+                            <p>5 * 5 = 25</p>
+                            <p>9</p>
+                            <p>12 / 4 = 3</p>
+                            <p>4</p>
+                            <p>Nome: João, Idade: 19, altura: 1,8</p>
+                            <p>===== FIM DO PROGRAMA =====</p>
+                            <p>Pressione Enter para sair...<span class="cmd-cursor">_</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ===== POO ===== -->
+            <div class="page-poo">
+                <h3>Programação Orientada a Objetos</h3>
+                <p>Descrição sobre a programação orientada a objetos no conteúdo de C#.</p>
+            </div>
+            <div class="grid-introducao">
+                <div class="codeinput">
+                    <pre><code><span class="kw">public class</span> <span class="type">ExercicioWriteLine</span>
+{
+    <span class="kw">public static void</span> <span class="fn">ExecutarWriteLine</span>()
+    {
+        <span class="cmt">//1. WriteLine x Write</span>
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(<span class="str">"Hello World1"</span>);
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>();
+        <span class="cls">Console</span>.<span class="fn">Write</span>(<span class="str">"Hello World2"</span>);
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>();
+
+        <span class="cmt">//2. Concatenação com +</span>
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(<span class="str">"Hello"</span> + <span class="str">" "</span> + <span class="str">"World"</span>);
+
+        <span class="cmt">//3. Caracteres de escape</span>
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(<span class="str">"Linha 1\nLinha 2"</span>);
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(<span class="str">"Nome:\tJoão"</span>);
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(<span class="str">"Ele disse: \"Olá!\""</span>);
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(<span class="str">"C:\\pasta\\arquivo.txt"</span>);
+
+        <span class="cmt">//4. Expressoes aritméticas direto no WriteLine</span>
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(<span class="str">$"2 + 2 = {2 + 2}"</span>);
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(4 + 4);
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(<span class="str">$"5 - 4 = {5 - 4}"</span>);
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(10 - 5);
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(<span class="str">$"5 * 5 = {5 * 5}"</span>);
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(3 * 3);
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(<span class="str">$"12 / 4 = {12 / 4}"</span>);
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(12 / 3);
+
+        <span class="cmt">//5. Formatação composta</span>
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(<span class="str">"Nome: {0}, Idade: {1}, altura: {2}"</span>, <span class="str">"João"</span>, <span class="num">19</span>, <span class="num">1.80</span>);
+
+        <span class="cmt">//6. ReadLine</span>
+        <span class="cls">Console</span>.<span class="fn">WriteLine</span>(<span class="str">"===== FIM DO PROGRAMA ====="</span>);
+        <span class="cls">Console</span>.<span class="fn">Write</span>(<span class="str">"Pressione Enter para sair..."</span>);
+        <span class="cls">Console</span>.<span class="fn">ReadLine</span>();
+    }
+}</code></pre>
+                </div>
+
+                <div class="codeoutput">
+                    <div class="cmd-window">
+                        <div class="cmd-titlebar">
+                            <span class="cmd-title">C:\Users\Pleiades\projetos\ExercicioWriteLine.exe</span>
+                        </div>
+                        <div class="cmd-body">
+                            <p>Hello World1</p>
+                            <p>&nbsp;</p>
+                            <p>Hello World2</p>
+                            <p>&nbsp;</p>
+                            <p>Hello World</p>
+                            <p>Linha 1</p>
+                            <p>Linha 2</p>
+                            <p>Nome:&nbsp;&nbsp;&nbsp;João</p>
+                            <p>Ele disse: "Olá!"</p>
+                            <p>C:\pasta\arquivo.txt</p>
+                            <p>2 + 2 = 4</p>
+                            <p>8</p>
+                            <p>5 - 4 = 1</p>
+                            <p>5</p>
+                            <p>5 * 5 = 25</p>
+                            <p>9</p>
+                            <p>12 / 4 = 3</p>
+                            <p>4</p>
+                            <p>Nome: João, Idade: 19, altura: 1,8</p>
+                            <p>===== FIM DO PROGRAMA =====</p>
+                            <p>Pressione Enter para sair...<span class="cmd-cursor">_</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
-        <section id="Python" class="page">
 
+        <section id="Python" class="page">
+            <div class="page-title">
+                <h2>Python</h2>
+            </div>
+            <div class="page-description">Python é uma linguagem de programação versátil usada para desenvolvimento web,
+                desktop, mobile, jogos, inteligência artificial e serviços em nuvem.</div>
+            <div class="page-topics">
+                <h2>Assuntos Aprendidos</h2>
+                <p>• Console, Variáveis e Math.</p>
+                <p>• Funções, If Else, Switch Case e While Do While.</p>
+                <p>• Classes, Objetos, Construtores e Métodos.</p>
+                <p>• Encapsulamento, Herança, Polimorfismo e Abstração.</p>
+            </div>
+            <div class="page-summary">
+                <h2>Súmario das atividades</h2>
+                <p>• Exercicio 1</p>
+                <p>• Exercicio 2</p>
+                <p>• Exercicio 3</p>
+                <p>• Exercicio 4</p>
+            </div>
+            <div class="page-conteudos">
+                <h2>Conteúdos</h2>
+            </div>
+            <div class="page-introducao">
+                <h3>Introdução</h3>
+            </div>
+            <div class="page-logica">
+                <h3>Lógica de programação</h3>
+            </div>
+            <div class="page-estrutura">
+                <h3>Estrutura de dados</h3>
+            </div>
+            <div class="page-poo">
+                <h3>Programação Orientada a Objetos</h3>
+            </div>
         </section>
         <section id="JavaScript" class="page">
-
+            <div class="page-title">
+                <h2>JavaScript</h2>
+            </div>
+            <div class="page-description">JavaScript é uma linguagem de programação versátil usada para desenvolvimento
+                web,
+                desktop, mobile, jogos, inteligência artificial e serviços em nuvem.</div>
+            <div class="page-topics">
+                <h2>Assuntos Aprendidos</h2>
+                <p>• Console, Variáveis e Math.</p>
+                <p>• Funções, If Else, Switch Case e While Do While.</p>
+                <p>• Classes, Objetos, Construtores e Métodos.</p>
+                <p>• Encapsulamento, Herança, Polimorfismo e Abstração.</p>
+            </div>
+            <div class="page-summary">
+                <h2>Súmario das atividades</h2>
+                <p>• Exercicio 1</p>
+                <p>• Exercicio 2</p>
+                <p>• Exercicio 3</p>
+                <p>• Exercicio 4</p>
+            </div>
+            <div class="page-conteudos">
+                <h2>Conteúdos</h2>
+            </div>
+            <div class="page-introducao">
+                <h3>Introdução</h3>
+            </div>
+            <div class="page-logica">
+                <h3>Lógica de programação</h3>
+            </div>
+            <div class="page-estrutura">
+                <h3>Estrutura de dados</h3>
+            </div>
+            <div class="page-poo">
+                <h3>Programação Orientada a Objetos</h3>
+            </div>
         </section>
         <section id="HTML" class="page">
-
+            <div class="page-title">
+                <h2>HTML</h2>
+            </div>
+            <div class="page-description">HTML é uma linguagem de marcação usada para criar páginas web.</div>
+            <div class="page-topics">
+                <h2>Assuntos Aprendidos</h2>
+                <p>• Estruturas básicas de HTML.</p>
+                <p>• Elementos semânticos.</p>
+                <p>• Classes, Objetos, Construtores e Métodos.</p>
+                <p>• Encapsulamento, Herança, Polimorfismo e Abstração.</p>
+            </div>
+            <div class="page-summary">
+                <h2>Súmario das atividades</h2>
+                <p>• Exercicio 1</p>
+                <p>• Exercicio 2</p>
+                <p>• Exercicio 3</p>
+                <p>• Exercicio 4</p>
+            </div>
+            <div class="page-conteudos">
+                <h2>Conteúdos</h2>
+            </div>
+            <div class="page-introducao">
+                <h3>Introdução</h3>
+            </div>
+            <div class="page-logica">
+                <h3>Lógica de programação</h3>
+            </div>
+            <div class="page-estrutura">
+                <h3>Estrutura de dados</h3>
+            </div>
+            <div class="page-poo">
+                <h3>Programação Orientada a Objetos</h3>
+            </div>
         </section>
         <section id="CSS" class="page">
-
+            <div class="page-title">
+                <h2>Css</h2>
+            </div>
+            <div class="page-description">CSS é uma linguagem de estilo usada para controlar a apresentação de
+                documentos HTML.</div>
+            <div class="page-topics">
+                <h2>Assuntos Aprendidos</h2>
+                <p>• Seletores e propriedades.</p>
+                <p>• Funções, If Else, Switch Case e While Do While.</p>
+                <p>• Classes, Objetos, Construtores e Métodos.</p>
+                <p>• Encapsulamento, Herança, Polimorfismo e Abstração.</p>
+            </div>
+            <div class="page-summary">
+                <h2>Súmario das atividades</h2>
+                <p>• Exercicio 1</p>
+                <p>• Exercicio 2</p>
+                <p>• Exercicio 3</p>
+                <p>• Exercicio 4</p>
+            </div>
+            <div class="page-conteudos">
+                <h2>Conteúdos</h2>
+            </div>
+            <div class="page-introducao">
+                <h3>Introdução</h3>
+            </div>
+            <div class="page-logica">
+                <h3>Lógica de programação</h3>
+            </div>
+            <div class="page-estrutura">
+                <h3>Estrutura de dados</h3>
+            </div>
+            <div class="page-poo">
+                <h3>Programação Orientada a Objetos</h3>
+            </div>
         </section>
     </main>
     <script src="script.js"></script>

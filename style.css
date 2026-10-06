@@ -1,12 +1,9 @@
 body {
-    background-image: url("./backgroundimg.png");
-    background-size: cover;
-    background-position: center;
+    background-color: rgba(26, 52, 115, 0.90);
     min-height: 100vh;
     margin: 0;
     display: flex;
     font-family: "Space Grotesk", sans-serif;
-
 }
 
 /* =========================================
@@ -107,6 +104,20 @@ body {
 /* =========================================
     HOME SECTION
    ========================================= */
+main {
+    width: 100%;
+    min-height: 100vh;
+}
+
+#Home {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("backgroundimg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
 
 .principal-container {
     color: white;
@@ -120,22 +131,10 @@ body {
     transform: translateX(-50%);
     top: 15%;
     background-color: rgba(26, 52, 115, 0.90);
-    opacity: 80%;
+    border: 2px solid rgba(255, 255, 255, 0.12);
+    border-radius: 10px;
+    box-sizing: border-box;
 
-}
-
-.updatelog-container {
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 20rem;
-    height: 45rem;
-    position: fixed;
-    left: 70%;
-    top: 15%;
-    background-color: rgba(26, 52, 115, 0.90);
-    opacity: 80%;
 }
 
 .page {
@@ -190,9 +189,33 @@ body {
     box-sizing: border-box;
 }
 
-.grid-updatelog {}
+.updatelog-container {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    height: 45rem;
+    position: fixed;
+    text-align: center;
+    left: 70%;
+    top: 15%;
+    background-color: rgba(26, 52, 115, 0.90);
+    overflow: hidden;
+    border: 2px solid rgba(255, 255, 255, 0.12);
+    border-radius: 10px;
+    box-sizing: border-box;
+}
 
-.card-updatelog {}
+.card-updatelog {
+    margin: 0.5rem;
+}
+
+.card-updatelog p {
+    border: 2px solid rgba(255, 255, 255, 0.12);
+    padding: 0.5rem;
+    margin: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.12);
+}
 
 .pleiades {
     display: flex;
@@ -205,4 +228,108 @@ body {
     top: 0;
     left: 0;
     font-size: 0.8rem;
+}
+
+/* =========================================
+    Pages
+   ========================================= */
+
+/* Token colors (VS Code Dark+) */
+.codeinput .kw   { color: #569CD6; }   /* keywords */
+.codeinput .type { color: #4EC9B0; }   /* class/types */
+.codeinput .cls  { color: #4EC9B0; }   /* Console, etc. */
+.codeinput .fn   { color: #DCDCAA; }   /* method names */
+.codeinput .str  { color: #CE9178; }   /* strings */
+.codeinput .num  { color: #B5CEA8; }   /* numbers */
+.codeinput .cmt  { color: #6A9955; font-style: italic; } /* comments */
+
+.codeinput {
+    width: 45rem;
+    height: 100%;
+    background-color: #1e1e1e;
+    font-size: 0.65rem;
+    padding: 0.5rem;
+    font-family: 'Consolas', 'Monaco', 'Fira Code', 'Courier New', monospace;
+    border: 5px solid rgba(255, 255, 255, 0.12);
+}
+
+.comment {
+    color: #6A9955;
+}
+
+.codeoutput {
+    width: 35rem;
+    height: 100%;
+    background-color: #0c0c0c;
+    font-size: 0.65rem;
+    padding: 0.5rem;
+    font-family: 'Consolas', 'Monaco', 'Fira Code', 'Courier New', monospace;
+    border: 5px solid rgba(255, 255, 255, 0.12);
+}
+
+.grid-introducao {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#CSharp {
+    margin-left: 17rem;
+    color: white;
+
+}
+
+#JavaScript {
+    margin-left: 17rem;
+    color: white;
+}
+
+#Python {
+    margin-left: 17rem;
+    color: white;
+}
+
+#HTML {
+    margin-left: 17rem;
+    color: white;
+}
+
+#CSS {
+    margin-left: 17rem;
+    color: white;
+}
+
+.page-title {
+    margin-top: 5rem;
+}
+
+.page-description {
+    margin: 1rem 0;
+}
+
+.page-topics {
+    margin-top: 5rem;
+}
+
+.page-summary {
+    margin-top: 5rem;
+}
+
+.page-conteudos {
+    margin-top: 5rem;
+}
+
+.page-introducao {
+    margin: 1rem 0;
+}
+
+.page-logica {
+    margin-top: 5rem;
+}
+
+.page-estrutura {
+    margin-top: 5rem;
+}
+
+.page-poo {
+    margin-top: 5rem;
 }
