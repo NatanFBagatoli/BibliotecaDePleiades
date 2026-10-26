@@ -11,7 +11,7 @@ body {
    ========================================= */
 
 #main-navbar {
-    background-color: rgba(26, 52, 115, 0.90);
+    background: linear-gradient(90deg,rgba(26, 52, 115, 1) 0%, rgba(41, 76, 158, 1) 50%);
     border-right: 2px solid rgba(255, 255, 255, 0.12);
     position: fixed;
     top: 0;
@@ -112,7 +112,7 @@ main {
 #Home {
     width: 100%;
     min-height: 100vh;
-    background-image: url("backgroundimg.png");
+    background-image: url("icons/backgroundimg.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -130,7 +130,7 @@ main {
     left: 40%;
     transform: translateX(-50%);
     top: 15%;
-    background-color: rgba(26, 52, 115, 0.90);
+    background: linear-gradient(90deg,rgba(26, 52, 115, 1) 0%, rgba(41, 76, 158, 1) 50%);
     border: 2px solid rgba(255, 255, 255, 0.12);
     border-radius: 10px;
     box-sizing: border-box;
@@ -199,7 +199,7 @@ main {
     text-align: center;
     left: 70%;
     top: 15%;
-    background-color: rgba(26, 52, 115, 0.90);
+    background: linear-gradient(90deg,rgba(26, 52, 115, 1) 0%, rgba(41, 76, 158, 1) 50%);
     overflow: hidden;
     border: 2px solid rgba(255, 255, 255, 0.12);
     border-radius: 10px;
@@ -235,13 +235,42 @@ main {
    ========================================= */
 
 /* Token colors (VS Code Dark+) */
-.codeinput .kw   { color: #569CD6; }   /* keywords */
-.codeinput .type { color: #4EC9B0; }   /* class/types */
-.codeinput .cls  { color: #4EC9B0; }   /* Console, etc. */
-.codeinput .fn   { color: #DCDCAA; }   /* method names */
-.codeinput .str  { color: #CE9178; }   /* strings */
-.codeinput .num  { color: #B5CEA8; }   /* numbers */
-.codeinput .cmt  { color: #6A9955; font-style: italic; } /* comments */
+.codeinput .kw {
+    color: #569CD6;
+}
+
+/* keywords */
+.codeinput .type {
+    color: #4EC9B0;
+}
+
+/* class/types */
+.codeinput .cls {
+    color: #4EC9B0;
+}
+
+/* Console, etc. */
+.codeinput .fn {
+    color: #DCDCAA;
+}
+
+/* method names */
+.codeinput .str {
+    color: #CE9178;
+}
+
+/* strings */
+.codeinput .num {
+    color: #B5CEA8;
+}
+
+/* numbers */
+.codeinput .cmt {
+    color: #6A9955;
+    font-style: italic;
+}
+
+/* comments */
 
 .codeinput {
     width: 45rem;
@@ -298,38 +327,94 @@ main {
     color: white;
 }
 
+#Math {
+    margin-left: 17rem;
+    color: white;
+}
+
+#Fisica {
+    margin-left: 17rem;
+    color: white;
+}
+
+#Quimica {
+    margin-left: 17rem;
+    color: white;
+}
+
 .page-title {
     margin-top: 5rem;
+    padding-left: 15px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    width: 50%;
+    
 }
 
 .page-description {
     margin: 1rem 0;
+    width: 50%;
+    padding-left: 15px;
 }
 
 .page-topics {
-    margin-top: 5rem;
+    background-color: rgba(52, 89, 173, 0.9);
+    border: 2px solid rgba(255, 255, 255, 0.12);
+    border-radius: 25px;
+    padding: 15px;
+    width: 50%;
+    margin-top: 2rem;
 }
 
 .page-summary {
-    margin-top: 5rem;
+    background-color: rgba(52, 89, 173, 0.9);
+    border: 2px solid rgba(255, 255, 255, 0.12);
+    border-radius: 25px;
+    padding: 15px;
 }
 
 .page-conteudos {
-    margin-top: 5rem;
+    margin-top: 3rem;
+    padding-left: 15px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    width: 50%;
 }
 
-.page-introducao {
-    margin: 1rem 0;
+.page-assuntos {
+    padding: 15px;
+    margin: 2rem 0;
+    background-color: rgba(52, 89, 173, 0.9);
+    border: 2px solid rgba(255, 255, 255, 0.12);
+    border-radius: 25px;
+    width: 50%;
+            transition:
+        background-color 0.2s ease,
+        border-color 0.2s ease,
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+    
 }
-
-.page-logica {
-    margin-top: 5rem;
+.page-assuntos a {
+    padding-right: 1rem;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 6px;
+    box-shadow: 3px 3px 0 black;
+    padding-left: 1rem;
+    
 }
-
-.page-estrutura {
-    margin-top: 5rem;
+.page-assuntos:hover{
+    transform: scale(1.04);
 }
-
-.page-poo {
-    margin-top: 5rem;
+.img-assuntos{
+    width: 100%;
+    height: 6rem;
+    flex-shrink: 0;
+    object-fit: contain;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 6px;
+    box-shadow: 3px 3px 0 black;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }

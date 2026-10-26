@@ -1,143 +1,103 @@
 # ✦ Biblioteca de Plêiades
 
-> Uma biblioteca pessoal para organizar, estudar e compartilhar conhecimentos sobre programação e desenvolvimento de software.
+> From a distance, behind its defense mechanism known as the Sand Time, the watchtower appears as a silhouette that never changes in position, shape or form, no matter how close you try to approach it.
+
+**Status:** Em desenvolvimento
 
 ## 📖 Sobre o projeto
 
-A **Biblioteca de Plêiades** é um projeto pessoal criado com o objetivo de reunir e organizar conhecimentos adquiridos durante meus estudos em programação.
+A **Biblioteca de Plêiades** é um projeto pessoal desenvolvido com o objetivo de organizar e documentar conhecimentos adquiridos ao longo da minha trajetória de aprendizado, reunindo anotações, exemplos, exercícios, avaliações e materiais de estudo.
 
-O projeto funciona como uma espécie de biblioteca digital, onde conceitos, anotações, exemplos, exercícios e projetos são organizados por diferentes áreas da computação.
+O projeto funciona como uma **biblioteca digital interativa**, na qual os conhecimentos são apresentados visualmente e organizados por áreas e disciplinas. Cada seção reúne informações sobre a matéria, assuntos estudados e materiais práticos, incluindo exercícios e provas.
 
-A proposta é transformar o aprendizado em algo documentado e consultável, permitindo não apenas revisar conteúdos já estudados, mas também acompanhar minha evolução ao longo do tempo.
+Além de facilitar a consulta e a revisão dos conteúdos, a biblioteca permite acompanhar minha evolução técnica e acadêmica, servindo também como um registro demonstrável das competências desenvolvidas.
+
+Diferentemente de uma plataforma de ensino, o projeto não tem como objetivo oferecer cursos ou seguir uma estrutura didática obrigatória. Seu propósito é servir como um **acervo pessoal de conhecimentos**, construído e ampliado continuamente.
 
 ## 🎯 Objetivos
 
-* Organizar meus conhecimentos de programação em um único lugar.
-* Documentar conceitos e assuntos estudados.
-* Criar exercícios para praticar os conteúdos aprendidos.
-* Desenvolver pequenos projetos e exemplos práticos.
-* Facilitar revisões e consultas futuras.
-* Compartilhar materiais que possam ser úteis para outras pessoas.
-* Construir, progressivamente, um registro dos conhecimentos e projetos desenvolvidos.
+- Centralizar e organizar conhecimentos adquiridos durante os estudos.
+- Documentar conceitos fundamentais e conteúdos relevantes.
+- Facilitar a consulta e a revisão de assuntos já estudados.
+- Registrar a evolução dos conhecimentos ao longo do tempo.
+- Disponibilizar materiais e exemplos que possam servir de referência para outras pessoas.
+- Demonstrar conhecimentos e competências por meio de registros e atividades práticas.
 
-## 🧠 Conteúdos
+## 📚 Áreas de conhecimento
 
-A biblioteca aborda diferentes linguagens, tecnologias e áreas relacionadas à programação.
+A biblioteca abrange diferentes disciplinas, linguagens de programação e tecnologias, organizadas de acordo com suas respectivas áreas de estudo.
 
-Atualmente, o projeto possui seções destinadas a:
+### Programação e desenvolvimento
 
-* **C#**
-* **Python**
-* **JavaScript**
-* **HTML**
-* **CSS**
+- **C#**
+- **Python**
+- **JavaScript**
+- **HTML5**
+- **CSS3**
 
-Também fazem parte da proposta conteúdos relacionados a:
+Os conteúdos incluem fundamentos de programação, lógica, estruturas condicionais e de repetição, funções, programação orientada a objetos, estruturas de dados e desenvolvimento web.
 
-* Lógica de programação
-* Estruturas de dados
-* Programação Orientada a Objetos
-* Matemática aplicada à programação
-* Desenvolvimento Web
-* Exercícios e desafios de programação
-* Projetos práticos
-* Conceitos fundamentais de computação
+### Matemática
 
-Novos conteúdos serão adicionados conforme o desenvolvimento do projeto e a evolução dos estudos.
+Seção destinada à documentação de conceitos matemáticos, resolução de problemas e exercícios organizados por assunto.
 
-## 🏗️ Estrutura
+Entre os temas abordados estão:
 
-A biblioteca é organizada de forma que cada área possua seus próprios conteúdos, exemplos e exercícios.
+- Álgebra
+- Equações e sistemas
+- Funções
+- Potenciação e radiciação
+- Logaritmos
+- Geometria
+- Trigonometria
 
-Uma representação simplificada da organização é:
+Outras disciplinas e áreas poderão ser incorporadas conforme o avanço dos estudos.
 
-```text
-Biblioteca de Plêiades
-│
-├── C#
-│   ├── Fundamentos
-│   ├── Variáveis
-│   ├── Operadores
-│   ├── Condicionais
-│   ├── Laços
-│   ├── Funções
-│   ├── Classes e Objetos
-│   └── Exercícios
-│
-├── Python
-│   └── ...
-│
-├── JavaScript
-│   └── ...
-│
-├── HTML
-│   └── ...
-│
-└── CSS
-    └── ...
-```
+## 🏗️ Organização
 
-A estrutura pode mudar conforme novas áreas e conteúdos forem incorporados ao projeto.
+Os conteúdos são distribuídos por área de conhecimento e organizados em tópicos específicos, facilitando a navegação e a localização dos materiais.
+
+A biblioteca possui duas formas principais de organização:
+
+**Interface web:** apresenta as áreas disponíveis e os assuntos estudados, funcionando como ponto central de navegação e consulta.
+
+**Repositório GitHub:** armazena os arquivos, códigos-fonte, exercícios e demais materiais produzidos durante os estudos.
+
+Os exercícios de programação são separados por linguagem e assunto, enquanto os de matemática são organizados de acordo com os conteúdos abordados.
+
+Essa organização poderá ser adaptada conforme novas necessidades surgirem.
 
 ## 💻 Tecnologias
 
-A interface da biblioteca está sendo desenvolvida inicialmente utilizando tecnologias fundamentais da Web:
+As tecnologias utilizadas no desenvolvimento da interface incluem:
 
-* HTML5
-* CSS3
-* JavaScript
+- HTML5 — Estruturação das páginas.
+- CSS3 — Estilização e organização visual.
+- JavaScript — Interatividade e funcionalidades.
 
-Os conteúdos apresentados na biblioteca podem utilizar diferentes linguagens e tecnologias de acordo com o assunto estudado.
+Os materiais armazenados na biblioteca também utilizam outras linguagens e tecnologias, de acordo com cada área de estudo.
 
-## 📝 Exercícios
+## 🚀 Desenvolvimento contínuo
 
-Uma das partes importantes do projeto são os exercícios.
+A Biblioteca de Plêiades é um projeto em constante evolução. Novos conteúdos, exercícios e funcionalidades serão incorporados progressivamente.
 
-Eles servem para transformar o conteúdo teórico em prática, permitindo testar a compreensão dos conceitos e identificar pontos que precisam ser revisados.
+Entre as possíveis melhorias estão:
 
-Os exercícios podem variar desde problemas simples de lógica até pequenos projetos e aplicações práticas.
+- Expansão das áreas de conhecimento.
+- Inclusão de novos exercícios e exemplos práticos.
+- Aprimoramento da interface.
+- Implementação de mecanismos de busca.
+- Melhorias na organização e na documentação dos conteúdos.
+- Desenvolvimento de uma versão mobile.
 
-## 🚀 Projetos práticos
+O desenvolvimento acompanhará as necessidades identificadas durante os estudos, sem a obrigação de transformar a biblioteca em uma plataforma educacional completa.
 
-Além de conteúdos teóricos e exercícios, a Biblioteca de Plêiades também funciona como um espaço para registrar projetos desenvolvidos durante o aprendizado.
+## 📌 Considerações finais
 
-Esses projetos têm como objetivo colocar diferentes conceitos em prática e servir como exemplos concretos da evolução do conhecimento.
+A Biblioteca de Plêiades representa uma iniciativa de aprendizado contínuo, documentação e organização pessoal.
 
-## 📚 Filosofia do projeto
-
-A Biblioteca de Plêiades não pretende ser apenas uma coleção de informações copiadas de outras fontes.
-
-A ideia é que os conteúdos sejam estudados, compreendidos, organizados e, sempre que possível, acompanhados de exemplos e exercícios próprios.
-
-Dessa forma, a biblioteca funciona simultaneamente como:
-
-**estudo → prática → documentação → revisão → evolução**
-
-## 🔮 Futuro do projeto
-
-A Biblioteca de Plêiades está em desenvolvimento e poderá receber diversas melhorias ao longo do tempo, incluindo:
-
-* Novas linguagens de programação.
-* Novos conteúdos e disciplinas.
-* Mais exercícios.
-* Projetos práticos.
-* Sistema de busca.
-* Melhor organização dos conteúdos.
-* Interações utilizando JavaScript.
-* Exemplos executáveis.
-* Novas ferramentas de estudo.
-* Expansão da documentação.
-
-A estrutura do projeto também poderá evoluir conforme novas necessidades forem identificadas.
-
-## 📌 Status
-
-**Em desenvolvimento.**
-
-A Biblioteca de Plêiades é um projeto contínuo. Seu conteúdo e sua estrutura serão expandidos conforme novos conhecimentos forem estudados e novos projetos forem desenvolvidos.
+Mais do que armazenar informações, o projeto busca transformar conhecimentos estudados em referências acessíveis, organizadas e acompanhadas de aplicações práticas.
 
 ---
 
-## ✦ Biblioteca de Plêiades
-
-**Um lugar para guardar o que foi aprendido, praticar o que está sendo estudado e construir o que ainda está por vir.**
+**✦ Biblioteca de Plêiades**

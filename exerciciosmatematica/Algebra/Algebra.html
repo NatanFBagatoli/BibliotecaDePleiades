@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Matemática</title>
+<style>
+  body {
+    background: #1e1e1e;
+    color: #d4d4d4;
+    font-family: "Segoe UI", system-ui, sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+
+  h2 {
+    color: #569cd6;
+    border-bottom: 1px solid #333;
+    padding-bottom: .4rem;
+    margin-top: 2.5rem;
+  }
+
+  h3 {
+    color: #4ec9b0;
+    margin-top: 1.5rem;
+  }
+
+  code, pre {
+    font-family: "Consolas", monospace;
+    background: #2a2a2a;
+    color: #ce9178;
+    padding: .1rem .35rem;
+    border-radius: 4px;
+  }
+
+  pre {
+    padding: .75rem 1rem;
+    overflow-x: auto;
+    white-space: pre-wrap;
+  }
+
+  ul, ol {
+    padding-left: 1.4rem;
+  }
+
+  li { margin-bottom: .3rem; }
+
+  strong { color: #dcdcaa; }
+</style>
+</head>
+<body>
+
+<h2>2x² − 7x + 3 = 0</h2>
+<p>a = 2, b = −7, c = 3</p>
+<pre>b² − 4ac ⇒ Δ = 49 − 4·2·3 ⇒ 49 − 24 = 25
+
+(−b ± √Δ) / 2a ⇒ (7 ± √25) / 4 ⇒ (7 ± 5) / 4 ⇒ 12/4 = 3 ou 2/4 = 1/2</pre>
+<p><strong>Raízes:</strong> x₁ = 3 e x₂ = 1/2</p>
+
+<h2>Termos</h2>
+<p><strong>Equação com 3 termos</strong> ⇒ (ax² + bx + c = 0) → resolve com Bhaskara ou soma e produto.</p>
+
+<p><strong>Equação com 2 termos:</strong></p>
+<ol>
+  <li>Falta o termo B ⇒ (ax² + c = 0) → isola e tira a raiz.<br>
+    <code>x² − 36 = 0 ⇒ x² = 36 ⇒ x = ±6</code></li>
+  <li>Falta o termo C ⇒ (ax² + bx = 0) → fatoração colocando x em evidência.<br>
+    <code>x² − 6x = 0 ⇒ x(x − 6) = 0 ⇒ x = 0 ou x = 6</code></li>
+</ol>
+
+<p><strong>Equação com 1 termo</strong> ⇒ (3x² = 0) ⇒ x² = 0 ⇒ x = 0. Quando sobra só um termo com x (ax² ou bx), a solução é x = 0. Se sobrar só um número (sem x), como 7 = 0, a equação não tem solução (sentença falsa).</p>
+
+<h2>x + y = 9 e x − y = 3</h2>
+<pre>x = ?
+1. (x + y) + (x − y) = 9 + 3
+   x: x + x = 2x
+   y: y − y = 0
+   2x = 12 ⇒ x = 6
+
+y = ?
+2. 6 + y = 9 ⇒ y = 3</pre>
+<p><strong>(6, 3)</strong></p>
+
+<h2>x + 2y = 11 e x − y = 2</h2>
+<pre>y = ?
+1. (x + 2y) − (x − y) = 11 − 2
+   x: x − x = 0
+   y: 2y + y = 3y
+   3y = 9 ⇒ y = 3
+
+x = ?
+2. x − 3 = 2 ⇒ x = 5</pre>
+<p><strong>(5, 3)</strong></p>
+
+<h2>2x + y = 13 e x + y = 8</h2>
+<pre>x = ?
+1. (2x + y) − (x + y) = 13 − 8
+   x: 2x − x = x
+   y: y − y = 0
+   x = 5
+
+y = ?
+2. 5 + y = 8 ⇒ y = 3</pre>
+<p><strong>(5, 3)</strong></p>
+
+<h2>2x + 3y = 16 e x + y = 6</h2>
+<pre>y = ?
+1. (2x + 3y) − (2x + 2y) = 16 − 12
+   x: 2x − 2x = 0
+   y: 3y − 2y = y
+   y = 4
+
+x = ?
+2. x + 4 = 6 ⇒ x = 2</pre>
+<p><strong>(2, 4)</strong></p>
+
+<h2>x + y = 5 e 2x + 2y = 14</h2>
+<pre>(x + y) = 5 ⇒ 2x + 2y = 10
+x: 2x − 2x = 0
+y: 2y − 2y = 0
+14 − 10 = 4 ⇒ 0 = 4</pre>
+<p>Não possui nenhuma solução.</p>
+
+<h2>Método da adição</h2>
+<p>Se duas quantidades são iguais, podemos somá-las ou subtraí-las membro a membro e a igualdade continua valendo.</p>
+
+<h3>Caso 1 — SOMAMOS</h3>
+<pre>1ª equação: +y (coeficiente +1)
+2ª equação: −y (coeficiente −1)
+São opostos, então somando os y se cancelam:
+x + x = 2x  |  y − y = 0  ⇒  2x + 0</pre>
+
+<h3>Caso 2 — SUBTRAÍMOS</h3>
+<pre>(x + 2y) = 11 e (x − y) = 2
+1ª: +x  |  2ª: −x
+São iguais; subtraindo, os x se cancelam:
+x − x = 0  |  2y + y = 3y  ⇒  0 + 3y</pre>
+
+<p><strong>Regra de ouro:</strong> a escolha de qual incógnita eliminar é decidida pela estrutura do sistema. No caso 1 poderíamos escolher entre eliminar x ou y; no caso 2 somos forçados a eliminar apenas o x.</p>
+
+<h2>Potência</h2>
+<pre>[x⁰, x¹, x², x³, x⁴, x⁵, x⁶, x⁷, x⁸, x⁹, x¹⁰, ...]
+[x⁻¹, x⁻², x⁻³, x⁻⁴, x⁻⁵, x⁻⁶, x⁻⁷, x⁻⁸, x⁻⁹, x⁻¹⁰, ...]
+
+2³ · 2⁵ = 2⁸
+x⁷ ÷ x³ = x⁴
+(3²)³ = 3⁶
+5⁻² = 1/5² = 1/25
+∛(−64) ⇒ (−4)³ = (−4)·(−4)·(−4) = −64 ⇒ −4
+√98 = √(49 · 2) ⇒ √49 · √2 = 7√2</pre>
+
+<h2>Logaritmos</h2>
+<pre>log₂ 8 = 3
+2 é a base; 8 é o logaritmando; 3 é o expoente
+
+1. Base (2): número que será elevado a uma potência.
+2. Logaritmando (8): resultado que queremos obter.
+3. Logaritmo (3): expoente necessário.
+
+log₂ 64 = 6 ⇒ 2⁶ = 64
+log₃ (1/27) = −3 ⇒ 3⁻³ = 1/27
+log₇ 1 = 0 ⇒ 7⁰ = 1
+log₂ (8·16) ⇒ log₂ 128 = 7 ⇒ 2⁷ = 128
+log₃ (81/9) ⇒ log₃ 9 = 2 ⇒ 3² = 9
+log₂ (4³) ⇒ log₂ 64 = 6 ⇒ 2⁶ = 64</pre>
+
+<h2>Geometria plana: áreas e perímetros</h2>
+<p><strong>Perímetro</strong> é a medida do contorno de uma figura.<br>
+<code>P = 8 + 5 + 8 + 5 ⇒ P = 26 m</code></p>
+
+<p><strong>Área</strong> é o tamanho da superfície ocupada pela figura.<br>
+<code>A = 8 · 5 ⇒ A = 40 m²</code></p>
+
+<h3>Quadrados</h3>
+<pre>P = 4L
+A = L²
+Exemplo: L = 6 cm ⇒ P = 4·6 = 24 cm  |  A = 6² = 36 cm²</pre>
+
+<h3>Retângulos</h3>
+<pre>P = 2(b + h)
+A = b·h
+Exemplo: b = 6 cm, h = 4 cm ⇒ P = 2(6+4) = 20 cm  |  A = 6·4 = 24 cm²</pre>
+
+<h3>Triângulos</h3>
+<pre>A = (b·h) / 2</pre>
+
+<h2>Exercício</h2>
+<p>Um retângulo possui comprimento de 12 cm e largura de 7 cm. Qual é seu perímetro?</p>
+<pre>P = 2(12 + 7) = 2 · 19 = 38 cm</pre>
+
+</body>
+</html>
